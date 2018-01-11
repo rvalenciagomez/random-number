@@ -15,6 +15,7 @@ function randomNumber() {
 }
 
 function flip() {
+    
     var milliseconds = new Date().getMilliseconds() * new Date().getMilliseconds();
     console.log('random milliseconds complete: ' + milliseconds);
 
